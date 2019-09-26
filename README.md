@@ -8,8 +8,14 @@
 当你的windows 10系统开启程序太多，几乎内存溢出的时候，会有提示：您的电脑虚拟内存不足或设置太低，影响电脑性能。这时候就需要设置虚拟内存来弥补电脑内存RAM不足
 # 点击【高级系统设置】。
 <img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469423693/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113726.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=DQ98nw/FrHyGw7iTq3t%2BJSC0yLs=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113726.png"/>
-# 点击【高级】——【设置】。如下图。
+# 点击【高级】——【设置】。
 <img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469435830/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113735.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=lZXdDnVCdWhxJCYk6hmCjggKPls=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113735.png"/>
+# 点击【高级】——【更改】。
+<img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469448691/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113748.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=kx64GBo3BuU1QFpd1AI67P5rHMU=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113748.png"/>
+# 点击剩余存储空间比较大的磁盘，比如我的E盘，然后勾选【自定义大小】，将初始大小和最大值大小都设置为2048，然后点击【设置】。如下图。
+<img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469463692/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113800.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=lBlB2r8GyWTkPAU0AugNgRz67ss=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113800.png"/>
+# 然后点击【确定】。重启电脑，改动生效。
+<img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469493898/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113813.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=SNWD7SkPyn/6q53S6WT%2Bm3fNDYU=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113813.png"/>
 
 ## SuperFetch服务
 什么是SuperFetch？这个怎么运作
@@ -19,6 +25,7 @@ SuperFetch服务的官方描述表明它“随着时间的推移保持并提高�
 SuperFetch是Windows Vista中引入的一项功能。它静静地置于后台，不断分析RAM使用模式，并了解您最常运行的应用程序类型。随着时间的推移，SuperFetch将这些应用程序标记为“经常使用”，并提前将它们预加载到RAM中。
 
 这个想法是，当你想要运行应用程序时，它会更快地启动，因为它已经预先加载到内存中。
+<img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469323755/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113631.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=w/AyNRZ%2BaGrMK68b3vldQLtqxQM=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113631.png"/>
 
 
 默认情况下，SuperFetch旨在通过预加载的应用程序占用所有可用的RAM空间。别担心：它只处理未使用的内存。一旦您的系统需要更多RAM（例如，加载未预加载的应用程序），它就会根据需要放弃所需的内存。
@@ -46,9 +53,11 @@ SuperFetch不会消除将应用程序加载到RAM中的需要。相反，它将�
 使用服务应用程序
 
 第1步：启动服务应用程序。打开“开始”菜单，搜索服务，然后启动“服务”应用程序。或者，通过按Windows键+ R打开“运行”提示，然后键入services.msc并单击“ 确定”。
+<img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469357746/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113642.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=d3sJ4lROQy6Q2VaFA7728XfGGso=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113642.png"/>
 
 
 第2步：禁用SuperFetch服务。向下滚动，直到看到Superfetch，右键单击它，然后单击“ 停止”。SuperFetch现已禁用。
+<img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469373963/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113651.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=skM4LWDU/h1g80QeKM7KteEyyq4=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113651.png"/>
 
 
 第3步：阻止SuperFetch自动运行。仍然在“服务”应用程序中，右键单击“ Superfetch”并选择“ 属性”。在“常规”选项卡下，查找“ 启动类型”并将其更改为“ 已禁用”。（或手动，如果您想要在需要时打开它。）
@@ -58,11 +67,14 @@ SuperFetch不会消除将应用程序加载到RAM中的需要。相反，它将�
 服务应用程序是首选方法，但如果由于某种原因它不起作用，您始终可以直接编辑注册表项。在执行此操作之前，请确保备份注册表以防出现问题（这比您想象的更常见）。
 
 第1步：打开注册表编辑器。打开“开始”菜单，搜索regedit，然后从结果中选择它。或者，通过按Windows键+ R打开“运行”提示，然后键入regedit并单击“ 确定”。
+<img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469394033/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113659.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=CKhY6LJKepRihUHvnR4p4sNoqlQ=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113659.png"/>
 
 
 第2步：找到SuperFetch键。使用左侧边栏，导航到以下内容：
 
 HKEY_LOCAL_MACHINE / SYSTEM / CurrentControlSet / Control / Session Manager / MemoryManagement / PrefetchParameters
+
+<img src="http://bj-oss-d-shujiajia.oss-cn-beijing.aliyuncs.com/dataworks/weekReport/1569469407300/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE20190926113707.png?Expires=4102329599&OSSAccessKeyId=LTAIER3YM8cdW2yI&Signature=E/Iq6NUO9DNtXUELYvEMEffqF7Q=&fileName=%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190926113707.png"/>
 
 
 第3步：禁用SuperFetch。在右侧面板中，您应该看到一个名为EnableSuperfetch的键。右键单击它并选择Modify ...以显示密钥编辑器。要禁用SuperFetch，请将Value Data更改为0，然后单击OK。
