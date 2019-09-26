@@ -1,6 +1,3 @@
-<p align="center">
-  <img width="120" src="public/img/icons/android-chrome-512x512.png">
-</p>
 
 <p align="center">
   <a href="https://github.com/vuejs/vue">
